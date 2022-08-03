@@ -1,0 +1,18 @@
+h1 {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: solid;
+    text-transform: capitalize;
+    text-indent: 0px;
+    line-height: 1.0;
+}
+
+p {
+    font-size: 50px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    text-align: center;
+}

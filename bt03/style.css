@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(54, 225, 255);
+    border: 5px solid red;
+}
+
+.head0 {
+    background-color: red;
+    color: yellow;
+    text-align: center;
+    overflow: auto;
+}
+
+.cot {
+    background-color: violet;
+}
+
+.hop {
+    width: 160px;
+    height: 160px;
+    background-color: green;
+    color: wheat;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.aside {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(169, 167, 167);
+    border: 5px solid rebeccapurple;
+    float: right;
+    display: inline-block;
+}

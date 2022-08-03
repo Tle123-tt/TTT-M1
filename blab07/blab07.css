@@ -1,0 +1,26 @@
+th,
+td {
+    padding: 10px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    caption-side: top;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(100, 100, 100, 0.315);
+}
+
+label:first-child {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}

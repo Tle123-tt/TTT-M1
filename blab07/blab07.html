@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blab07.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <video src="titok1.mp4" controls></video> -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bmoawwTTdOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> 
+    </iframe>
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12425.116227899225!2d-77.0562669!3d38.8718568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf83d0f8c013532f!2zTOG6p3UgTsSDbSBHw7Nj!5e0!3m2!1svi!2s!4v1659096849284!5m2!1svi!2s" width="800"
+        height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <table>
+        <caption>Danh sách học viên</caption>
+
+        <thead>
+            <th>Họ tên</th>
+            <th>Giới tính</th>
+            <th>Năm sinh</th>
+            <th>Quê quán</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+
+            <tr>
+                <td>Thức</td>
+                <td>Nam</td>
+                <td>2001</td>
+                <td>Hà Nội</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3" rowspan="2">Tổng số</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Toàn Nam</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+    <form action="">
+        <div class="form-field">
+            <h3 class="form-field">
+                Đăng nhập
+            </h3>
+        </div>
+
+        <div class="form-field">
+            <label for="username">Username *</label>
+            <input type="text" name="username" id="username" minlength="6" maxlength="20" required/>
+        </div>
+
+        <div class="form-field">
+            <label for="password">Password *</label>
+            <input type="text" name="password" id="password" required/>
+            <!-- <div>Your username</div> -->
+        </div>
+
+        <div class="form-field">
+            <label for="dob">Date of birth *</label>
+            <input type="date" name="dob" id="dob" required/>
+        </div>
+        <div class="form-field">
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" required/>
+        </div>
+
+        <div class="form-field">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" />
+        </div>
+
+        <div class="form-field">
+            <label for="">Gender</label>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" />
+
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other" />
+        </div>
+
+        <div class="form-field">
+            <label for="">Favourite</label>
+
+            <input type="checkbox" name="favourite" id="game" value="game">
+            <label for="game">Game</label>
+
+            <input type="checkbox" name="favourite" id="movie" value="movie">
+            <label for="game">Movie</label>
+
+            <input type="checkbox" name="favourite" id="Reading" value="Reading">
+            <label for="game">Reading</label>
+        </div>
+
+        <div class="form-field">
+            <label for="">City</label>
+            <select name="quequan" id="city">
+            <option value="hn">Hà Nội</option>
+            <option value="hp">Hải Phòng</option>
+            <option value="hcm">TP HCM</option>
+            <option value="kh">Khánh Hòa</option>
+            <option value="dn">Hòa Bình</option>
+        </select>
+        </div>
+
+        <div class="form-field">
+            <label for="">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-field">
+            <Button>Submit</Button>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>

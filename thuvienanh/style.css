@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+}
+
+.topnav h2 {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+
+#pic1 {
+    width: 400px;
+    height: 100px;
+}
+
+.cot {
+    float: left;
+    width: 30%;
+    padding: 15px
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}

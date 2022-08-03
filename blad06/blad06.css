@@ -1,0 +1,66 @@
+    .box {
+        width: 200px;
+        height: 200px;
+        color: aliceblue;
+    }
+    
+    .relative {
+        position: relative;
+        top: -10px;
+    }
+    
+    .absoulus {
+        position: absolute;
+        width: unset;
+        height: unset;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.315);
+    }
+    
+    .fixed {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .box--biger {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .bg-red {
+        background-color: red;
+    }
+    
+    .bg-blue {
+        background-color: blue;
+    }
+    
+    .bg-yellow {
+        background-color: yellow;
+    }
+    
+    .bg-green {
+        background-color: green;
+    }
+    
+    .bg-violet {
+        background-color: violet;
+    }
+    
+    .bg-oreagn {
+        background-color: orange;
+    }
+    
+    .boxs {
+        /* width: 50px;
+        height: 50px; */
+        background-color: aqua;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        /* border-radius: 50px; */
+    }

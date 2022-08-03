@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    height: 300px;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+}
