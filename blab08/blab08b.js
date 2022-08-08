@@ -31,4 +31,4 @@ function csf(temp) {
     const result = (temp * 1.8) + 32;
     return result;
 }
-console.log(csf(4));
+console.log(csf(3));
